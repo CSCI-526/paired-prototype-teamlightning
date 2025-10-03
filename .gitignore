@@ -2,7 +2,6 @@
 [Tt]emp/
 [Oo]bj/
 [Bb]uilds/
-[Bb]uild/
 [Ll]ogs/
 [Mm]emoryCaptures/
 UserSettings/
@@ -22,10 +21,8 @@ ExportedObj/
 *.apk
 *.aab
 
-!Assets/
-!ProjectSettings/
-!Packages/
+[Bb]uild/
 
-!docs/Build/*
-!docs/TemplateData/*
+!docs/Build/**
+!docs/TemplateData/**
 !docs/index.html
