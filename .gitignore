@@ -26,6 +26,6 @@ ExportedObj/
 !ProjectSettings/
 !Packages/
 
-docs/Build/*
-docs/TemplateData/*
+!docs/Build/*
+!docs/TemplateData/*
 !docs/index.html
