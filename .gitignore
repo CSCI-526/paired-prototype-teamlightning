@@ -1,7 +1,6 @@
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
 UserSettings/
@@ -20,8 +19,6 @@ ExportedObj/
 .sysinfo
 *.apk
 *.aab
-
-[Bb]uild/
 
 !docs/Build/**
 !docs/TemplateData/**
