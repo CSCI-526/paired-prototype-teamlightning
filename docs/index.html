@@ -56,18 +56,30 @@
         updateBannerVisibility();
       }
 
+      // var buildUrl = "Build";
+      // var loaderUrl = buildUrl + "/pairedprototype.loader.js";
+      // var config = {
+      //   dataUrl: buildUrl + "/pairedprototype.data.br",
+      //   frameworkUrl: buildUrl + "/pairedprototype.framework.js.br",
+      //   codeUrl: buildUrl + "/pairedprototype.wasm.br",
+      //   streamingAssetsUrl: "StreamingAssets",
+      //   companyName: "DefaultCompany",
+      //   productName: "TimeFreezeRunner",
+      //   productVersion: "1.0",
+      //   showBanner: unityShowBanner,
+      // };
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/pairedprototype.loader.js";
-      var config = {
-        dataUrl: buildUrl + "/pairedprototype.data.br",
-        frameworkUrl: buildUrl + "/pairedprototype.framework.js.br",
-        codeUrl: buildUrl + "/pairedprototype.wasm.br",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "TimeFreezeRunner",
-        productVersion: "1.0",
-        showBanner: unityShowBanner,
-      };
+var loaderUrl = buildUrl + "/pairedprototype.loader.js";
+var config = {
+dataUrl: buildUrl + "/pairedprototype.data.br",
+frameworkUrl: buildUrl + "/pairedprototype.framework.js.br",
+codeUrl: buildUrl + "/pairedprototype.wasm.br",
+streamingAssetsUrl: "StreamingAssets",
+companyName: "DefaultCompany",
+productName: "TimeFreezeRunner",
+productVersion: "1.0",
+showBanner: unityShowBanner,
+};
 
       // By default, Unity keeps WebGL canvas render target size matched with
       // the DOM size of the canvas element (scaled by window.devicePixelRatio)
